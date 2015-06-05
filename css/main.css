@@ -28,6 +28,7 @@ div {
 }
 
 #menu {
+    min-width: 300px;
     width: 75%;
     color:#fff;
     margin: 0px auto;
@@ -41,7 +42,7 @@ div {
 #logo {
     /*border: 1px solid red;*/
     font-family: 'Arvo', serif;
-    font-size:1.6em;
+    font-size:1.5em;
     padding-bottom: 25px;
     font-weight: 400;
     /*text-shadow: 0px 0px 5px #000;*/
