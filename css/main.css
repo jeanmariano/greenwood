@@ -58,7 +58,9 @@ div {
     margin-bottom: 5%;
     padding-top: 25vh;
     padding-bottom: 20vh;    
-    font-size:4vh;
+    font-size:3.5vh;
+    text-shadow: 0px 0px 5px #000;
+
 }
 
 #splashtitle {
@@ -66,8 +68,9 @@ div {
     font-size:10vh;
     color:#fff;
     margin-bottom:10vh;
-    line-height: 9vh;
+    line-height: 10vh;
     font-weight: 600;
+    text-shadow: 0px 0px 5px #000;    
 }
 
 #splash a {
@@ -80,7 +83,8 @@ div {
 
 #splash a:hover {
     background-color: #fff;
-    color:#444;
+    color:#333;
+    text-shadow: 0px 0px 0px #000;
 }
 
 /*.nav {
@@ -112,10 +116,29 @@ div {
     width:70%;
     padding-top:20px;
     padding-bottom:20px;
-    font-size: 8pt;
+    font-size: 14pt;
     color:#fff;
-    line-height: 10pt;
+    /*line-height: 20pt;*/
 }
+
+#footer ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+#footer span {
+    margin: 10px 10px 0px 10px;
+    border-radius: 20px;
+    border:10px solid #555;
+    background-color: #555;
+}
+
+#footer span:hover {
+    border:10px solid #519A51;
+    background-color: #519A51;
+}
+
 
 .nav a {
     /*border: 1px solid red;*/
